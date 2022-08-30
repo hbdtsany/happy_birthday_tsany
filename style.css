@@ -1,0 +1,55 @@
+:root {
+    --pink: #FFB3B3
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+}
+
+.col {
+    height: 100%;
+    flex: 1;
+}
+
+.blockleft,
+.blockright {
+    height: 100vh;
+    background-color: #111;
+}
+
+.middle {
+    /* display: flex;
+    justify-content: center; */
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    position: absolute;
+}
+
+.circle {
+    border: 0px solid transparent;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+}
+
+#buttclick {
+    display: none;
+}
+
+
+/* Animation Here */
+
+@keyframes bg {
+    to {
+        background-color: var(--pink);
+    }
+}
