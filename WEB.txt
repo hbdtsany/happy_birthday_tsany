@@ -1,0 +1,13 @@
+https://api.jquery.com/fadein/
+https://api.jquery.com/promise/
+https://www.tutorialsteacher.com/jquery/jquery-animation
+https://www.geeksforgeeks.org/jquery-animate-with-examples/#:~:text=The%20animate()%20is%20an,(selector).
+https://codepen.io/alvarotrigo/pen/dyzxgOO
+https://codepen.io/alvarotrigo/pen/bGrXmwM
+https://codepen.io/alvarotrigo/pen/ExvqdNa
+https://codepen.io/team/keyframers/pen/RwKoMmb
+https://codepen.io/alvarotrigo/pen/bGrXmwM
+https://codepen.io/Coding-Artist/pen/gjZJOZ
+https://codepen.io/donovanh/pen/KwEQdQ
+https://codepen.io/kevin_David_k/pen/eYNeQVY
+https://codepen.io/jakegilesphillips/pen/MveNLe
