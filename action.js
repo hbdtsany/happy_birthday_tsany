@@ -1,7 +1,12 @@
 // Fungsi show/fadeIn otomatis ubah display none ke block
 $(".waviy").on("click", function() {
     $("#loading").remove();
+    var audio = $('#firemusic')[0];
+    audio.play();
+    // $("#firemusic").play();
     $("#firework").fadeIn();
+    // const audio = new Audio("Firework.mp3");
+    // audio.play();
     $("#words>h1>span").each(function(i) {
         // $(this).show("bounce", (1000 * (i) * 0.5));
         // $(this).slideDown(1000 * (i) * 0.5);
@@ -16,9 +21,15 @@ $(".waviy").on("click", function() {
         $(".circle-btn").fadeIn(2000);
     });
 });
+$("body").on("click", function() {
+    // var audio = $('#firemusic')[0];
+    // audio.play();
+    // $("#firemusic").play();
+});
 $(".circle-btn").on("click", function() {
     $("#words").fadeOut(1000);
     $("#firework").fadeOut(1000);
+    $("#firemusic").remove();
     $(".circle-btn").fadeOut(1000);
     $(".circle-btn").promise().done(function() {
         $("#firework").remove()
