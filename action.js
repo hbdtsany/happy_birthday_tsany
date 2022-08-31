@@ -12,9 +12,10 @@ $("#loading").on("click", function() {
     });
     $("#words>h1>span").promise().done(function() {
         $("#words").animate({
-            top: "-20%";
-            position: "relative";
+            top: "-20%",
+            position: "relative",
         });
+        // $("#words").animate({});
     });
     // $("div").promise().done(function() {
     //     $("p").append(" Finished! ");
