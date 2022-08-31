@@ -1,5 +1,9 @@
 :root {
-    --pink: #FFB3B3
+    --pink: #FFB3B3;
+    --brown: #FFDBA4;
+    --yellow: #FFE9AE;
+    --light-blue: #c1efff;
+    --blue: #3100c7;
 }
 
 body {
@@ -40,18 +44,62 @@ body {
     border-radius: 50% 20% 50%;
     width: 150px;
     height: 150px;
-    background-color: azure;
+    background-color: var(--light-blue);
+    box-shadow: 2px 2px var(--blue);
     animation: wiggle 2s linear infinite;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.text-white {
+    color: aliceblue;
+}
+
+.text-black {
+    color: #111;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.txt-pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.txt-shadow {
+    text-shadow: 2px 2px white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-menu {
+    display: none;
+}
+
+.card {
+    border: 0px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 20px 10px black;
+}
+
+.full-height {
+    height: calc(100vh - 100px);
+}
+
+#congrats {
+    display: none;
 }
 
 
 /* Animation Here */
-
-@keyframes bg {
-    to {
-        background-color: var(--pink);
-    }
-}
 
 @keyframes wiggle {
     0%,
