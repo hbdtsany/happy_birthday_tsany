@@ -35,6 +35,20 @@ body {
     background-color: #111;
 }
 
+#img {
+    display: block;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    box-shadow: 5px 5px lightgrey;
+    top: -20%;
+    position: relative;
+}
+
 .circle-btn {
     display: none;
     position: absolute;
@@ -87,7 +101,7 @@ body {
     background-color: white;
     margin: 50px;
     padding: 20px;
-    box-shadow: 20px 10px black;
+    box-shadow: 20px 10px lightgray;
 }
 
 .full-height {
@@ -96,6 +110,11 @@ body {
 
 #congrats {
     display: none;
+}
+
+img.circle,
+.p-top {
+    margin-top: 50px;
 }
 
 

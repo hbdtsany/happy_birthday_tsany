@@ -40,24 +40,11 @@ $(".circle-btn").on("click", function() {
         $(".blockright").hide("slide", { direction: "right" }, 1000, function() {
             $("#curtain").remove();
             $("#card-menu").show("fold", 2000, showCongrats());
-            // $("#card-menu").show("fold", 2000, function() {
-            //     $("#congrats").show("bounce", 1000);
-            // });
-            // $("#congrats>h1>span").each(function(i) {
-            //     $(this).fadeIn(1000 * (i) * 0.5);
-            // });
         });
     });
-    // $("#card-menu").promise().done(function() {
-    //     $("#congrats").show("bounce", 1000);
-    // });
 });
 
 function showCongrats() {
-    // $("#congrats").show("bounce", 4000);
     $("#congrats").fadeIn(4000);
-    // $("#congrats>h1>span").each(function(i) {
-    //     $(this).fadeIn(1000 * (i) * 0.5);
-    // });
-    // $("#congrats").show("bounce", 4000);
+
 };
