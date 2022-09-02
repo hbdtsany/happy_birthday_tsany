@@ -108,8 +108,9 @@ $('#letters').click(function() {
     }
 
     msgLoop(0);
-    $('#story').fadeOut('slow').promise().done(function() {
-        $('#after').fadeIn('slow');
-    });
+    // $('#story').fadeOut('slow').promise().done(function() {
+    // $('#letters').delay(55000).fadeIn('slow');
+    $('#myBtn').delay(37000).fadeIn('slow');
+    // });
 
 });
