@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+            background-image: url("../img/bg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+        }
+        
+        #tsany {
+            background-image: url("../img/tsany.jpg");
+            display: inline-block;
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            border: 30px solid whitesmoke;
+            box-sizing: border-box;
+            rotate: -20deg;
+            position: absolute;
+            top: 25%;
+            left: 15%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+        }
+        
+        #say {
+            position: absolute;
+            top: 25%;
+            right: 15%;
+        }
+        
+        .txt-pacifico {
+            font-family: 'Pacifico', cursive;
+            font-style: italic;
+            /* font-size: 300px; */
+        }
+        
+        .big {
+            font-size: 60px;
+            letter-spacing: 20px;
+            color: #8cd15e;
+            text-shadow: 4px 5px 9px #282e21;
+        }
+        
+        .small {
+            color: #f9c664;
+            letter-spacing: 10px;
+            font-size: 40px;
+            text-shadow: 4px 5px 9px #3c3d3c;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bg">
+        <div id="tsany"></div>
+        <div id="say">
+            <h1 class="small ">DEAR TSANY</h1>
+            <H2 class="big txt-pacifico">Happy
+                <br> Birthday
+            </H2>
+        </div>
+    </div>
+</body>
+
+</html>

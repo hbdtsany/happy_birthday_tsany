@@ -1,0 +1,124 @@
+.wiggle {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: wiggle 2s linear infinite;
+    cursor: pointer;
+}
+
+#myDiv {
+    background-image: url('../img/question.png');
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.addkey {
+    animation: pop 5s linear 1 forwards;
+}
+
+div#hat {
+    background-image: url(../img/party-hat.png);
+    opacity: 1;
+    filter: drop-shadow(2px 4px 6px black);
+    background-size: contain;
+    width: 158px;
+    height: 158px;
+    position: absolute;
+    transform: rotate(30deg);
+    top: 10%;
+    left: 30%;
+}
+
+div#leftBall {
+    background-image: url(../img/air-balloons.png);
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    rotate: -27deg;
+}
+
+div#rightBall {
+    background-image: url(../img/air-balloons.png);
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    rotate: 27deg;
+    transform: rotateY(180deg);
+}
+
+#leftBall,
+#rightBall {
+    animation: balloons 2s infinite;
+}
+
+@keyframes balloons {
+    0%,
+    100% {
+        transform: translateY(0) rotate(-4deg);
+    }
+    50% {
+        transform: translateY(-25px) rotate(4deg);
+    }
+}
+
+@keyframes pop {
+    10% {
+        transform: rotateY(90deg);
+    }
+    15% {
+        transform: rotateY(180deg);
+    }
+    25% {
+        transform: rotateY(270deg);
+    }
+    30% {
+        transform: rotateY(360deg);
+    }
+    35% {
+        transform: rotateY(45deg);
+    }
+    40% {
+        transform: rotateY(90deg);
+    }
+    45% {
+        transform: rotateY(180deg);
+    }
+    50% {
+        /* background-image: url('./img/balloons.png'); */
+        transform: rotateY(270deg);
+    }
+    55% {
+        transform: rotateY(360deg);
+    }
+    60% {
+        transform: rotateY(90deg);
+    }
+    65% {
+        transform: rotateY(180deg);
+    }
+    70% {
+        transform: rotateY(270deg) translateX(50%) translateY(50%);
+        /* transform: translateX(50%);
+        transform: translateY(50%); */
+    }
+    75% {
+        transform: rotateY(360deg);
+        transform: scale(2);
+    }
+    85% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(2);
+    }
+    100% {
+        background-image: url('../img/tsany.jpg');
+    }
+}
